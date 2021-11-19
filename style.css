@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+h2,
+h1 {
+    font-family: var(--fonthead);
+    font-size: 4rem;
+}
+
+p {
+    font-family: var(--fontnormal);
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    transition: all 5s;
+}
+
+a:hover {
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.582);
+}
+
+.nav .bar {
+    font-size: 3rem;
+    display: none;
+}
+
+/* information  */
+
+.header {
+    width: 100vw;
+    padding: 1rem;
+    height: 5rem;
+    z-index: 101;
+    margin-top: 15rem;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+}
+
+.header .info li a {
+    color: #9ccc65;
+}
+
+.header .info li :hover {
+    color: #33691e;
+}
+
+.Log_Reg button {
+    width: 20%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    color: #9ccc65;
+    background: #fff;
+    font-size: 1.8rem;
+}
+
+.Log_Reg .Active_reg {
+    background: #9ccc65;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+/* Show On Or Of */
+.show_on_of {
+    display: none;
+}
+
+
+/* Navigation */
+
+.nav {
+    width: 100%;
+    padding: 2rem 0;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    z-index: 111;
+
+}
+
+.logo img {
+    width: 8rem;
+    margin: 1rem;
+}
+
+.nav .logo {
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+.logo h1 {
+    color: #03a9f4;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav li a {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav .so-cal li {
+    padding: 1rem;
+    background: #9ccc65;
+    border-radius: 0.5rem;
+}
+
+.nav .so-cal li a {
+    color: #fff;
+}
+
+.nav .so-cal li:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* slider img */
+
+.slider {
+    width: 100vw;
+    /* background: #9ccc65; */
+    position: relative;
+    margin: 1rem;
+}
+
+
+.slider {
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slider .sld {
+    width: 100%;
+    height: 100%;
+    background-image: url(Img/bg_1.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.slider .sld h2 {
+    font-size: 5rem;
+    font-weight: 1000;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 1rem 1rem 0.3rem rgba(0, 0, 0, 0.9);
+}
+
+/* Why we Woke */
+
+section {
+    padding: 3rem;
+}
+
+.work {
+    width: 100vw;
+    position: relative;
+    margin: 5rem 0;
+}
+
+.head_title {
+    width: 100%;
+    margin: 10rem 0;
+}
+
+.head_title h1 {
+    width: 30%;
+    text-align: center;
+    border-bottom: 0.5rem solid #33691e;
+
+}
+
+.work .boxses .box {
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.boxses .box i {
+    font-size: 10rem;
+    background: #9ccc65;
+    border-radius: 20rem;
+    margin: 5rem 0;
+}
+
+.box p {
+    margin: 2rem 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Courses Pop */
+
+.courses {
+    width: 100vw;
+    position: relative;
+    margin: 5rem 0;
+}
+
+.courses .boxses {
+    width: 100%;
+    position: relative;
+}
+
+.courses .boxses .box {
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    height: 100vh;
+}
+
+.box img {
+    width: 50%;
+    height: 50%;
+    margin: 2rem 0;
+}
+
+.box .img-box {
+    width: 100%;
+    height: 30rem;
+    background: #9ccc65;
+    border-radius: 5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+
+.box button {
+    position: relative;
+    bottom: 0%;
+}
+
+
+/* About Us  */
+
+.about {
+    width: 100vw;
+    position: relative;
+    height: 80vh;
+    background: #063e91c9;
+}
+
+.about .abu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.about .head_title h1 {
+    width: 50%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about .abu p {
+    word-spacing: 2rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* testimonials */
+
+.testimonials {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin: 5rem 0;
+}
+
+
+.testimonials .boxses {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.testimonials .boxses .box {
+    width: 100%;
+    padding: 2rem;
+}
+
+.testimonials .boxses .box img {
+    width: 10rem;
+    border-radius: 10rem;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(Img/bg_1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* padding: 1rem; */
+}
+
+li {
+    padding: 1rem;
+}
+
+footer .card li a {
+    font-size: 1.5rem;
+    color: #9ccc65;
+}
+
+footer .card h2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .nav .bar {
+        display: block;
+        text-align: end;
+        padding: 0 5rem;
+    }
+
+    .nav .on_off {
+        display: none;
+    }
+
+    .nav .change {
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        background-color: #9ccc65;
+        z-index: 1110;
+    }
+
+    .change li {
+        margin: 1rem 0;
+    }
+
+    .change li a {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    .header {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .header .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+    /* why we worke */
+
+    .work {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work .boxses {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 1rem;
+    }
+
+    /* Courses pop */
+
+    .courses .boxses {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 1rem;
+    }
+
+    .courses .boxses .box{
+        height: auto;
+    }
+
+    /* About us */
+    .about{
+        width: 100vw;
+        position: relative;
+        height: auto;
+    }
+
+    .about .abu{
+    width: 100%;
+    display: grid;
+    grid-template-columns:auto;
+    justify-content: center;
+    grid-gap: 1rem;
+    }
+
+    .about .head_title{
+        width: 100%;
+    }
+
+
+    /* Footer */
+
+    footer{
+        width: 100vw;
+        position: relative;
+        height: auto;
+    }
+
+    footer .flex{
+        display: grid;
+    }   
+
+    footer .footer-grid{
+        
+            width: 100%;
+            display: grid;
+            grid-template-columns:auto;
+            justify-content: center;
+            grid-gap: 1rem;
+    }
+   
+
+}
+
+
+@media screen and (max-width:647px) {
+    
+
+    html {
+        font-size: 45%;
+    }
+
+
+    .nav .logo{
+        margin-left: 1rem;
+    }
+
+    /* slider */
+
+    .slider{
+        width: 100vw;
+        position: relative;
+    }
+
+    .slider .sld{
+        background-size: cover;
+        width: 100%;
+    }
+
+    .slider .sld h2{
+        text-align: center;
+    }
+
+
+     /* Testimonials */
+
+     .testimonials{
+        width: 100vw;
+    }
+
+   .testimonials .boxses{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 1rem;
+        background: #9ccc65;
+    }
+    
+    .testimonials .boxses .box{
+        background:rgba(255,255,255,0.2);
+        border-radius: 5rem;
+    }
+
+}

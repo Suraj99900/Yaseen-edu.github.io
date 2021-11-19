@@ -1,0 +1,82 @@
+:root{
+    --fonthead:'Amatic SC', cursive;
+    --fontnormal:'Patrick Hand', cursive;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(40vw,1fr));
+    height: 100%;
+    
+}
+
+.grid-extra{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(30vw,1fr));
+    justify-content: center;
+    grid-gap: 1rem;
+}
+
+
+
+
+.grid-extra_part2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+}
+
+.card{
+    width: 100%;
+    background: #063e91a4;
+    border-radius: 0.5rem;
+    height: 100%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+
+
+.btn_cl{
+    border: none;
+    outline: none;
+    width: 15rem;
+    font-size: 1.8rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color:#9ccc65;
+    color: #fff;
+}
+
+button:hover{
+    background: #33691e;
+  
+}
+
